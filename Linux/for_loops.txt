@@ -1,0 +1,16 @@
+#!/bin/bash
+
+states=('Hawaii' 'Florida' 'Minnesota' 'Washington' 'North Carolina')
+
+for state in ${states[@]}
+do
+        if [ $state == 'North Carolina' ];
+then
+        echo "North Carolina is amazing!"
+else
+        echo "North Carolina is goofy."
+fi
+
+done
+
+
